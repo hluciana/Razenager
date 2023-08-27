@@ -8,7 +8,7 @@
 
 ## Description
 
-<p>Razenager helps you get information from a <b>UPN(Univesidad Privada del Norte)</b> student</p>
+<p>Razenager helps you get information from a <b>UPN</b> student</p>
 <p>I am working on improvements and adding new features</p>
 <p>You are free to modify the code in your own way and test it for educational purposes</p>
 
