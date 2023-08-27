@@ -118,11 +118,11 @@ namespace Razenager.Web
                                            })();
                                            return res;
                                            ") as string;
-                            dataPlain = dataPlain.Replace(",", "\n");
                             rtb_log.BeginInvoke((MethodInvoker)(() => { rtb_log.AppendText("Data plain script OK!\n"); }));
 
                             if (dataPlain != String.Empty)
                             {
+                                dataPlain = dataPlain.Replace(",", "\n");
                                 dataJSON = js.ExecuteScript(@"
                                            const res = (() => {
                                              if (window.__initialContext?.user) {
@@ -157,8 +157,10 @@ namespace Razenager.Web
                 rtb_log.BeginInvoke((MethodInvoker)(() => { rtb_log.AppendText($"ERROR CRITICAL: {err}\n"); }));
             }
 
-            rtb_log.BeginInvoke((MethodInvoker)(() => { rtb_log.AppendText("End!\n"); }));
-            rtb_log.BeginInvoke((MethodInvoker)(() => { rtb_log.AppendText("------------------------\n"); }));
+            rtb_log.BeginInvoke((MethodInvoker)(() => {
+                rtb_log.AppendText("End!\n");
+                rtb_log.AppendText("------------------------\n");
+            }));
         }
     }
 }
