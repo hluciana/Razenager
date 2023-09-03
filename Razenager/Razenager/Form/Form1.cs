@@ -74,6 +74,7 @@ namespace Razenager
 
                 BTN_DownloadLog.BeginInvoke((MethodInvoker)(() => BTN_DownloadLog.Enabled = true));
                 BTN_ClearLog.BeginInvoke((MethodInvoker)(() => BTN_ClearLog.Enabled = true));
+                CB_Type.BeginInvoke((MethodInvoker)(() => CB_Type.Text = "INFO"));
             });
         }
 
