@@ -1,5 +1,5 @@
 <h1 align="center"><img src="/images/razenager.png" alt="razenager"></h1>
-<h2 align="center">ALPHA v2.0.1</h2>
+<h2 align="center">ALPHA v2.1</h2>
 
 ## Table of Contents
 
