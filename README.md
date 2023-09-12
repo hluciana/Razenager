@@ -35,8 +35,8 @@ Update-Package -Reinstall
 <p><img src="/images/login.png" alt="login"></p>
 <p>Info section:</p>
 
-- By entering the student's token, you can obtain their personal information such as: DNI, full name, date of birth, contact number, etc.
-- By entering the student's token, you can obtain the grades for all the courses they have taken in each academic term.
+- Personal Info: By entering the student's token, you can obtain their personal information such as: DNI, full name, date of birth, contact number, etc.
+- Historical grades: By entering the student's token, you can obtain the grades for all the courses they have taken in each academic term.
 <div style="display:flex;">
   <img src="/images/infov1.png" alt="infov1" style="width:45%;">
   <img src="/images/infov2.png" alt="infov2" style="width:45%;">
